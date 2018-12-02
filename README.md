@@ -56,7 +56,7 @@ views/ = the actual webpage files.
 
 TIP
 
-In the webpage phps you can call o'n components using their declaired name as a tag. eg. '<nav-bar></nav-bar> or <card-container></card-container>'
+In the webpage phps you can call o'n components using their declaired name as a tag. eg. /<nav-bar/>/</nav-bar/> or /<card-container/>/</card-container/>
 
 
 EXTRA
