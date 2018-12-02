@@ -4,11 +4,26 @@ VueJS and Laravel
 
 Requirements (Install):
 
-GitBash
+GitBash: https://git-scm.com/downloads
 
-PHP
+    Linux bash for git.
 
-Node.JS Npm
+PHP: https://windows.php.net/download#php-7.2
+
+    Extract the contents folder somewhere say create the folder C:/php.
+
+    Add C:/php to windows environment path.
+
+    You should be able to run php -v in git bash or windows cmd to see if it works.
+
+
+Composer: https://getcomposer.org/download/
+
+    Should be able to run composer in git or cmd.
+
+Node.JS Npm: https://www.npmjs.com/get-npm
+
+    Should be able to run npm in git or cmd.
 
 
 # Setup Instructions
@@ -23,10 +38,15 @@ Node.JS Npm
 
 4. npm install
 
-	installs all dependencies
+	installs dependencies
     
     takes like 5 minutes
 
+5. composer update
+
+    installs more dependencies
+
+    ~2 minutes.
 
 5. npm run watch
 
