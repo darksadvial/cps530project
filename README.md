@@ -1,9 +1,13 @@
 # cps530project
 
 Requirements (Install):
+
 GitBash
+
 PHP
+
 Node.JS Npm
+
 
 # Setup Instructions
 1. Open GitBash to the folder you wish to have the project.
@@ -30,13 +34,17 @@ Node.JS Npm
 EVERYTHING YOU NEED TO CHANGE IS FOUND IN THE RESOURCES FOLDER.
 
 js/components/ = think of it like smaller modules/building blocks to add to the pages.
+
 js/app.js = where you declare/add new components you've created eg. "Vue.component('card-container', require('./components/CardContainer.vue'));"
 
 views/ = the actual webpage files.
 
+
 TIP
 In the webpage phps you can call on components using their declaired name as a tag. eg. <nav-bar></nav-bar> or <card-container></card-container>
 
+
 EXTRA
 there is also the file routes/web.php which controls which php file gets access via the URL. eg. localhost:8000/page1 = page1.blade.php
+
 routes/api.php is for the api, I have not setup any api's yet, that is done through laravel which I have no idea how to do.
