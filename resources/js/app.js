@@ -5,18 +5,15 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
- // Adding Bootstrap.
+import Vue from 'vue';
+window.Vue = require('vue');
+
+ // Bootstrap package.
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
-
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
-
+import BootstrapVue from 'bootstrap-vue';
 Vue.use(BootstrapVue);
 require('./bootstrap');
-
-
-window.Vue = require('vue');
 
 /**
  * The following block of code may be used to automatically register your
@@ -26,7 +23,7 @@ window.Vue = require('vue');
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('card-container', require('./components/CardContainer.vue'));
 Vue.component('nav-bar', require('./components/NavBar.vue'));
 
 // const files = require.context('./', true, /\.vue$/i)
