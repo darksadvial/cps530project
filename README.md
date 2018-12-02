@@ -1,4 +1,6 @@
 # cps530project
+VueJS and Laravel
+
 
 Requirements (Install):
 
