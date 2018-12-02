@@ -11,6 +11,7 @@
     </head>
     <body>
         <div id="app">
+            <!-- Navigation bar component. -->
             <nav-bar></nav-bar>
             Page 2
         </div>
