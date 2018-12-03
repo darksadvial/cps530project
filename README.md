@@ -4,11 +4,26 @@ VueJS and Laravel
 
 Requirements (Install):
 
-GitBash
+GitBash: https://git-scm.com/downloads
 
-PHP
+    Linux bash for git.
 
-Node.JS Npm
+PHP: https://windows.php.net/download#php-7.2
+
+    Extract the contents folder somewhere say create the folder C:/php.
+
+    Add C:/php to windows environment path.
+
+    You should be able to run php -v in git bash or windows cmd to see if it works.
+
+
+Composer: https://getcomposer.org/download/
+
+    Should be able to run composer in git or cmd.
+
+Node.JS Npm: https://www.npmjs.com/get-npm
+
+    Should be able to run npm in git or cmd.
 
 
 # Setup Instructions
@@ -20,23 +35,37 @@ Node.JS Npm
 
 3. cd into that folder
 
+4. composer install
 
-4. npm install
-
-	installs all dependencies
+    installs dependencies
     
     takes like 5 minutes
 
+5. composer update
 
-5. npm run watch
+6. rm .env.example .env
+
+7. php artisan cache:clear
+
+8. composer dump-autoload
+
+9. php artisan key:generate
+
+10. npm install
+
+	installs dependencies
+    
+    takes like 5 minutes
+
+11. npm run watch
 
 	builds server files, keep this window open as it continues to build as you change the code.
 
 
-6. open another bash window cd into the same folder
+12. open another bash window cd into the same folder
 
 
-7. php artisan serve
+13. php artisan serve
 
     deployds the local server on url: localhost:8000
 
