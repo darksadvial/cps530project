@@ -16,6 +16,7 @@
 
             <br>
 
+            <!-- Main Body -->
             <div class="container" style="padding-bottom: 100px">
                 <!-- Centers body -->
                 <div class="row justify-content-center">
@@ -26,7 +27,7 @@
                         The following is a short step by step tutorial/guide demonstrating how to install and setup VueJs and Laravel powered website.
                         <br>
                         This tutorial will be done on windows machine.
-                        
+
                         <br><br>
 
                         <section>
@@ -37,7 +38,7 @@
                             <a v-b-toggle.collapse-soft-1 href="#/" style="text-decoration: none; color: black"><b-badge>></b-badge> GitBash</a>
                             <b-collapse id="collapse-soft-1" class="mt-2">
                                 <b-card bg-variant="dark" text-variant="white">
-                                    <p class="card-text">Download Link: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+                                    <p class="card-text">Download Link: <a href="https://git-scm.com/downloads" style="color: white">https://git-scm.com/downloads</a></p>
                                 </b-card>
                             </b-collapse>
 
@@ -47,11 +48,11 @@
                             <b-collapse id="collapse-soft-2" class="mt-2">
                                 <b-card bg-variant="dark" text-variant="white">
                                     <p class="card-text">
-                                        Download Link: <a href="https://windows.php.net/download#php-7.2">https://windows.php.net/download#php-7.2</a><br><br>
+                                        Download Link: <a href="https://windows.php.net/download#php-7.2" style="color: white">https://windows.php.net/download#php-7.2</a><br><br>
                                         <strong>Installation Notes</strong><br>
                                         Extract zip into a folder where you wish to install it eg. C:\<br>
                                         Add C:\php to the system environment path.<br>
-                                        You should be able to run php -v in git bash or windows cmd to see if it works.
+                                        You should be able to run php -v in GitBash or windows cmd to see if it works.
                                     </p>
                                 </b-card>
                             </b-collapse>
@@ -62,22 +63,22 @@
                             <b-collapse id="collapse-soft-3" class="mt-2">
                                 <b-card bg-variant="dark" text-variant="white">
                                     <p class="card-text">
-                                        Download Link: <a href="https://getcomposer.org/download/">https://getcomposer.org/download/</a><br><br>
+                                        Download Link: <a href="https://getcomposer.org/download/" style="color: white">https://getcomposer.org/download/</a><br><br>
                                         <strong>Installation Notes</strong><br>
-                                        Should be able to run composer in git or cmd.
+                                        Should be able to run composer command in GitBash or windows cmd.
                                     </p>
                                 </b-card>
                             </b-collapse>
-                            
+
                             <br>
 
                             <a v-b-toggle.collapse-soft-4 href="#/" style="text-decoration: none; color: black"><b-badge>></b-badge> NPM Node.js</a>
                             <b-collapse id="collapse-soft-4" class="mt-2">
                                 <b-card bg-variant="dark" text-variant="white">
                                     <p class="card-text">
-                                        Download Link: <a href="https://www.npmjs.com/get-npm">https://www.npmjs.com/get-npm</a><br><br>
+                                        Download Link: <a href="https://www.npmjs.com/get-npm" style="color: white">https://www.npmjs.com/get-npm</a><br><br>
                                         <strong>Installation Notes</strong><br>
-                                        Should be able to run npm in git or cmd.
+                                        Should be able to run npm command in GitBash or windows cmd.
                                     </p>
                                 </b-card>
                             </b-collapse>
