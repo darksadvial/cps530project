@@ -35,28 +35,37 @@ Node.JS Npm: https://www.npmjs.com/get-npm
 
 3. cd into that folder
 
+4. composer install
 
-4. npm install
-
-	installs dependencies
+    installs dependencies
     
     takes like 5 minutes
 
 5. composer update
 
-    installs more dependencies
+6. rm .env.example .env
 
-    ~2 minutes.
+7. php artisan cache:clear
 
-5. npm run watch
+8. composer dump-autoload
+
+9. php artisan key:generate
+
+10. npm install
+
+	installs dependencies
+    
+    takes like 5 minutes
+
+11. npm run watch
 
 	builds server files, keep this window open as it continues to build as you change the code.
 
 
-6. open another bash window cd into the same folder
+12. open another bash window cd into the same folder
 
 
-7. php artisan serve
+13. php artisan serve
 
     deployds the local server on url: localhost:8000
 
