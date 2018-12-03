@@ -19,6 +19,8 @@ require('./bootstrap');
 import VueImageLoader from '@kevindesousa/vue-image-loader'
 Vue.use(VueImageLoader)
 
+import {Waterfall, WaterfallItem} from 'vue2-waterfall';
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
