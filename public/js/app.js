@@ -64600,7 +64600,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "row justify-content-center" }, [
-      _c("div", { staticClass: "col-md-8" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("div", { staticClass: "card card-default" }, [
           _c("div", { staticClass: "card-header" }, [
             _vm._v(" " + _vm._s(this.title) + " ")
@@ -65094,7 +65094,7 @@ exports = module.exports = __webpack_require__(12)(false);
 
 
 // module
-exports.push([module.i, ".title-header {\r\n    font-size: 100px\r\n}", ""]);
+exports.push([module.i, ".header-title {\r\n    font-size: 40px;\r\n}\r\n\r\n.header1 {\r\n    font-size: 30px;\r\n}", ""]);
 
 // exports
 

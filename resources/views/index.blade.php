@@ -13,7 +13,6 @@
         <div id="app">
             <nav-bar></nav-bar>
             Welcome
-            <example-component></example-component>
 
             <br>
             <br>
