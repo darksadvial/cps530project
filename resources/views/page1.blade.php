@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="app">
+        <div id="app" class="app">
             <!-- Navigation bar component. -->
             <nav-bar></nav-bar>
 
@@ -35,9 +35,18 @@
                     <b-card>CODE HERE</b-card>
                 </b-collapse>
             </card-contrainer>
-        </div>
+
+            <br>
+            <br>
+
+            <!-- <image-loader src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?fit=crop&crop=entropy&w=3456&h=2304" width="864px" height="476px"/> -->
+
+            <br>
+            <br>
+
         <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
     </body>
+
 
     <style>
     </style>
